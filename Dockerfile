@@ -41,7 +41,7 @@ COPY ./microservice /opt/$NAME/microservice
 RUN chown -R $USER:$USER /opt/$NAME
 
 # Tell Docker we are going to use this ports
-EXPOSE 5700
+EXPOSE 5800
 USER $USER
 
 # Run unit tests

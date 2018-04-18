@@ -1,12 +1,12 @@
 {
 	"name": "#(service.name)",
 	"endpoints": [{
-		"path": "/v1/test-gdal-hello/dissolve",
+		"path": "/v1/test-gdal-dissolve/dissolve",
 		"method": "POST",
 		"binary": true,
 		"redirect": {
 			"method": "POST",
-			"path": "/api/v1/test-gdal-hello/dissolve"
+			"path": "/api/v1/test-gdal-dissolve/dissolve"
 		}
 	}]
 }

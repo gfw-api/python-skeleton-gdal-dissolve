@@ -21,7 +21,7 @@ logging.basicConfig(
 app = Flask(__name__)
 
 # Routing
-app.register_blueprint(psone_endpoints, url_prefix='/api/v1/test-gdal-hello')
+app.register_blueprint(psone_endpoints, url_prefix='/api/v1/test-gdal-dissolve')
 
 # CT
 info = load_config_json('register')
